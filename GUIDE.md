@@ -570,7 +570,8 @@ Sources : [RFC 9113, HTTP/2](https://www.rfc-editor.org/rfc/rfc9113.html) ; [Spr
 
 # TP - List et Flux
 
-> [!warning] IntelliJ ne résout pas les imports
+> [!WARNING]
+> **IntelliJ ne résout pas les imports**
 > Si IntelliJ affiche `package reactor.core.publisher does not exist` ou `package org.junit.jupiter.api does not exist`, vérifier deux points :
 >
 > - Mettre IntelliJ à jour vers une version compatible avec Maven 3.10, utilisé par le wrapper du projet.
